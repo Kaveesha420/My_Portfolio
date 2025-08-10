@@ -1,20 +1,32 @@
+* {
+     margin: 0;
+    padding: 0;
+}
+
 #navbar{
     display: flex;
     justify-items: right;
     justify-content: right;
-    height: 50px;
-    background-color: rgb(48, 148, 148);
+    height: 60px;
+    background-color:#3A0107;
+    width: 100%;
 }
 
 #navbar li{
     list-style: none;
     padding: 0 20px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 #navbar li a {
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
-    color: black;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    background-color: #0D0006;
 }
