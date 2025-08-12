@@ -30,3 +30,12 @@
     display: flex;
     background-color: #0D0006;
 }
+
+.aboutParagraph{
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 15%;
+    text-align: center;
+    width: 75%;
+    color: white;
+}
