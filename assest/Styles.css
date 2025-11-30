@@ -1,0 +1,50 @@
+* {
+     margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    justify-items: right;
+    justify-content: right;
+    height: 60px;
+    background-color:#3A0107;
+    width: 100%;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    background-color: #0D0006;
+}
+
+.aboutParagraph{
+    margin-top: 2%;
+    font-size: 20px;
+    margin-left: 15%;
+    text-align: center;
+    width: 75%;
+    color: white;
+}
+
+#Skils{
+    color: white;
+}
+#Skils h6{
+    margin-left: 5%;
+    line-height: 2;
+    margin-top: 1%;
+}
